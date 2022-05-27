@@ -1,0 +1,30 @@
+{
+  "name": "turbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "pm2 start index.js --name TurBot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TymeOn/TurBot.git"
+  },
+  "author": "TymeOn",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TymeOn/TurBot/issues"
+  },
+  "homepage": "https://github.com/TymeOn/TurBot#readme",
+  "dependencies": {
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1",
+    "pm2": "^5.2.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "nodemon": "^2.0.16"
+  }
+}
